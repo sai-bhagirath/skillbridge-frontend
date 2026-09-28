@@ -1,0 +1,153 @@
+export const roadmaps = {
+  "Web Development": [
+    "HTML & CSS Basics",
+    "JavaScript Fundamentals",
+    "DOM & Events",
+    "React Basics",
+    "Build a Website"
+  ],
+  Python: [
+    "Python Basics",
+    "Python Variables & Data Types",
+    "Conditions & Loops",
+    "Python Functions",
+    "Build a Mini Project"
+  ],
+  "Data Structures": [
+    "Arrays",
+    "Linked Lists",
+    "Stacks & Queues",
+    "Trees",
+    "Graphs"
+  ],
+  JavaScript: [
+    "JavaScript Basics",
+    "JavaScript Variables & Data Types",
+    "JavaScript Functions",
+    "Arrays & Objects",
+    "Build a JavaScript Project"
+  ]
+};
+
+export const lessonContent = {
+  "HTML & CSS Basics": {
+    explanation: "HTML creates the structure of a webpage, while CSS controls its design.",
+    code: "<h1>Hello World</h1>",
+    question: "What is HTML mainly used for?",
+    answer: "structure"
+  },
+  "JavaScript Fundamentals": {
+    explanation: "JavaScript adds logic and interactivity to websites.",
+    code: "let name = 'Sai';",
+    question: "Which language adds interactivity to a webpage?",
+    answer: "javascript"
+  },
+  "DOM & Events": {
+    explanation: "The DOM allows JavaScript to interact with HTML elements.",
+    code: "document.querySelector('h1');",
+    question: "What does DOM stand for?",
+    answer: "document object model"
+  },
+  "React Basics": {
+    explanation: "React is a JavaScript library used to build interactive user interfaces.",
+    code: "function App() { return <h1>Hello</h1>; }",
+    question: "What is React mainly used for?",
+    answer: "user interfaces"
+  },
+  "Build a Website": {
+    explanation: "Use HTML, CSS and JavaScript together to build a complete website.",
+    code: "<button>Click Me</button>",
+    question: "Which language is mainly used to style a webpage?",
+    answer: "css"
+  },
+  "Python Basics": {
+    explanation: "Python is a beginner-friendly programming language used in many areas including AI and automation.",
+    code: "print('Hello World')",
+    question: "Which function is used to display output in Python?",
+    answer: "print"
+  },
+  "Python Variables & Data Types": {
+    explanation: "Variables store information. Python supports strings, integers, floats and booleans.",
+    code: "age = 20",
+    question: "What is stored inside a variable?",
+    answer: "value"
+  },
+  "Conditions & Loops": {
+    explanation: "Conditions allow programs to make decisions, while loops repeat code.",
+    code: "if age >= 18:\n    print('Adult')",
+    question: "Which keyword is used to create a condition in Python?",
+    answer: "if"
+  },
+  "Python Functions": {
+    explanation: "Functions are reusable blocks of code that perform a specific task.",
+    code: "def greet():\n    print('Hello')",
+    question: "Why do we use functions?",
+    answer: "reuse code"
+  },
+  "Build a Mini Project": {
+    explanation: "Use the Python concepts you learned to build a small practical project.",
+    code: "print('My first project')",
+    question: "Why are projects useful when learning programming?",
+    answer: "practice"
+  },
+  Arrays: {
+    explanation: "An array stores multiple values in an organized collection.",
+    code: "int numbers[] = {10, 20, 30};",
+    question: "What is stored inside an array?",
+    answer: "values"
+  },
+  "Linked Lists": {
+    explanation: "A linked list stores data in nodes where each node points to another node.",
+    code: "Node -> Node -> Node",
+    question: "What connects nodes in a linked list?",
+    answer: "links"
+  },
+  "Stacks & Queues": {
+    explanation: "Stacks follow Last In First Out, while queues follow First In First Out.",
+    code: "Stack: 3 -> 2 -> 1",
+    question: "Which principle does a stack follow?",
+    answer: "lifo"
+  },
+  Trees: {
+    explanation: "A tree is a hierarchical data structure made up of nodes connected by edges.",
+    code: "      10\n     /  \\\n    5    15",
+    question: "What is the top node of a tree called?",
+    answer: "root"
+  },
+  Graphs: {
+    explanation: "A graph consists of vertices and edges and can represent relationships between objects.",
+    code: "A ---- B\n|      |\nC ---- D",
+    question: "What are the two main components of a graph?",
+    answer: "vertices and edges"
+  },
+  "JavaScript Basics": {
+    explanation: "JavaScript is a programming language used to make websites interactive and dynamic.",
+    code: "console.log('Hello World');",
+    question: "What language is used to add interactivity to websites?",
+    answer: "javascript"
+  },
+  "JavaScript Variables & Data Types": {
+    explanation: "JavaScript variables can store different types of data such as strings, numbers and booleans.",
+    code: "let age = 20;",
+    question: "Which keyword can be used to create a variable in JavaScript?",
+    answer: "let"
+  },
+  "JavaScript Functions": {
+    explanation: "Functions are reusable blocks of code that perform a particular task.",
+    code: "function greet() {\n  console.log('Hello');\n}",
+    question: "What do functions help us do?",
+    answer: "reuse code"
+  },
+  "Arrays & Objects": {
+    explanation: "Arrays store collections of values, while objects store information using key-value pairs.",
+    code: "let fruits = ['Apple', 'Mango'];",
+    question: "Which structure is used to store multiple values in JavaScript?",
+    answer: "array"
+  },
+  "Build a JavaScript Project": {
+    explanation: "Now combine variables, functions, arrays and DOM concepts to create an interactive project.",
+    code: "const button = document.querySelector('button');\nbutton.addEventListener('click', () => {\n  alert('Hello!');\n});",
+    question: "What can JavaScript be used to build?",
+    answer: "interactive websites"
+  }
+};
